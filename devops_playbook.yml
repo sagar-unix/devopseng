@@ -4,11 +4,9 @@
   become: true
   become_user: root
   tasks:
+  - name: install git
+    yum: name=git state=present
   - name: install docker
     yum: name=docker state=present
   - name: start docker
     service: name=docker state=started
-  - name: install git
-    yum: name=git state=present
-  - name: Docker image pull & run to create container
-    command: docker run -itd -p 80:80 devopsedu/webapp:latest

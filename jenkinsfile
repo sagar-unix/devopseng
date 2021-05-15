@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent none
     stages{
         stage('Clone my Repo from git'){
             steps{
@@ -13,6 +13,15 @@ pipeline {
                 echo "Executing the playbook: Webservers"
                 ansiblePlaybook colorized: true, credentialsId: 'slave1', disableHostKeyChecking: true, installation: 'myansible', inventory: 'dev.inv', playbook: 'devops_playbook.yml'
             }
+
+       stage('Docker Build and Run') {
+            agent{ label 'slave'}
+            steps {
+                sh "sudo docker rm -f edurekaApp || true"
+                sh "sudo docker build -t edurekaimg ."
+                sh "sudo docker run -it -d --name edurekaApp -p 1998:80 edurekaimg"
+            }
+        }
 
         }
     }
