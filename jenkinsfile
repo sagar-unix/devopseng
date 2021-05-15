@@ -22,7 +22,5 @@ pipeline {
                 sh "sudo docker run -it -d --name edurekaApp -p 8080:80 edurekaimg"
             }
         }
-      }
     }
-
 }
