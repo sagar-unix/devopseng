@@ -13,4 +13,4 @@
   - name: Dowload PHP source code base repo
     git:
       repo: 'https://github.com/sagar-unix/projCert.git'
-      dest: .
+      dest: /home/ec2-user/jenkins/website
