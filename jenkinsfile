@@ -22,5 +22,11 @@ pipeline {
                 sh "sudo docker run -it -d --name edurekaApp -p 8080:80 edurekaimg"
             }
         }
+       stage('Installing pre-requesities for Selenium testing'){
+           agent{ label 'slave' }
+           steps{
+               sh "curl https://raw.githubusercontent.com/staier/chromedriver-centos6-installation/master/install-google-chrome.sh |bash"
+           }
+       }
     }
 }
