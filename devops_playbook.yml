@@ -10,3 +10,7 @@
     yum: name=docker state=present
   - name: start docker
     service: name=docker state=started
+  - name: Dowload PHP source code base repo
+    git:
+      repo: 'https://github.com/sagar-unix/projCert.git'
+      dest: .

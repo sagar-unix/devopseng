@@ -19,7 +19,7 @@ pipeline {
             steps {
                 sh "sudo docker rm -f edurekaApp || true"
                 sh "sudo docker build -t edurekaimg ."
-                sh "sudo docker run -it -d --name edurekaApp -p 1998:80 edurekaimg"
+                sh "sudo docker run -it -d --name edurekaApp -p 8080:80 edurekaimg"
             }
         }
 
