@@ -25,7 +25,7 @@ pipeline {
        stage('Installing pre-requesities for Selenium testing'){
            agent{ label 'slave' }
            steps{
-               sh "curl https://raw.githubusercontent.com/staier/chromedriver-centos6-installation/master/install-google-chrome.sh |bash"
+               sh "curl https://raw.githubusercontent.com/sagar-unix/chromedriver-centos6-installation/master/install-google-chrome.sh |bash"
            }
        }
     }
