@@ -25,7 +25,7 @@ pipeline {
        stage('Installing pre-requesities for Selenium testing'){
            agent{ label 'slave' }
            steps{
-               sh "curl https://raw.githubusercontent.com/sagar-unix/se_prerequesities/main/chrome_driver_installer.sh |bash"
+               sh "curl https://raw.githubusercontent.com/sagar-unix/se_prerequesities/main/dependency_install.sh |bash"
            }
        }
     }
