@@ -18,6 +18,7 @@ pipeline {
             agent{ label 'slave'}
             steps {
                 sh "sudo docker rm -f edurekaApp || true"
+                sh "sudo docker rmi -f edurekaimg || true"
                 sh "sudo docker build -t edurekaimg ."
                 sh "sudo docker run -it -d --name edurekaApp -p 8080:80 edurekaimg"
             }
@@ -26,6 +27,19 @@ pipeline {
            agent{ label 'slave' }
            steps{
                sh "curl https://raw.githubusercontent.com/sagar-unix/se_prerequesities/main/dependency_install.sh |bash"
+           }
+       }
+       stage('Run Test'){
+           agent{ label 'slave' }
+           steps{
+               sh "java -jar devops_sagar_edureka.jar"
+           }
+           post{
+               failure{
+                   sh 'echo "Test Failure : Removing application !"'
+                   sh "sudo docker rm -f edurekaApp"
+               }
+
            }
        }
     }
