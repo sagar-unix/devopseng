@@ -31,7 +31,8 @@ As soon as the developer pushes the updated code on my GIT master branch [repo][
     - [x] run the jar to test.
     - [x] If test fails delete the docker container.
 
-Jenkins Master: http://13.58.218.108:8080/login?from=%2F
+Jenkins Master: http://13.58.218.108:8080/job/devops/
+
 Jenkins Slave/Website: http://3.15.160.86:8080
 
 ## Author
