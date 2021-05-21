@@ -9,10 +9,10 @@ This is my DevOps Engineer edureka certification project. All work logged in her
   - [License](#license)
 
 ## About Project ##
-As soon as the developer pushes the updated code on the GIT master branch https://github.com/sagar-unix/projCert.git, a new test server should be provisioned with all the required software. The code should be containerized and deployed on the test server.The deployment should then be tested using a test automation tool, and if the test fails, container should be deleted. All this should happen automatically and should be triggered from a push to the GitHub master branch.
+As soon as the developer pushes the updated code on my GIT master branch [repo][1], a new test server should be provisioned with all the required software. The code should be containerized and deployed on the test server.The deployment should then be tested using a test automation tool, and if the test fails, container should be deleted. All this should happen automatically and should be triggered from a push to the GitHub master branch.
 
 ## Demo
- ![Demo](https://github.com/sagar-unix/devopseng/blob/master/docs/sagar_unix_demo.gif "Sagar-DevOps-Demo")
+ ![Demo][2]
 
 ## Getting Started ##
 - [x] Created a decalrative pipeline to execute whole job as CI/CD.
@@ -31,6 +31,12 @@ As soon as the developer pushes the updated code on the GIT master branch https:
     - [x] run the jar to test.
     - [x] If test fails delete the docker container.
 
+Jenkins Master : http://13.58.218.108:8080/login?from=%2F
+
 
 ## Author
 Sagar Unix - [@sagar-unix](https://github.com/sagar-unix)
+
+## Links
+[1]: https://github.com/sagar-unix/devopseng/blob/master/docs/sagar_unix_demo.gif "Sagar-DevOps-Demo"
+[2]: https://github.com/sagar-unix/projCert.git "Sagar-GitHub-Repo"
