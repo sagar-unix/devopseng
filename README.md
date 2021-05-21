@@ -29,8 +29,7 @@ As soon as the developer pushes the updated code on the GIT master branch https:
     - [x] If test fails delete the docker container.
 
 ## Demo
- ![Demo](https://thumbs.gfycat.com/OrderlyCreativeHoki-mobile.mp4)
- ![alt text](https://thumbs.gfycat.com/OrderlyCreativeHoki-mobile.mp4 "Logo Title Text 1")
+ ![Demo](https://github.com/sagar-unix/devopseng/blob/master/docs/sagar_devops_demo.gif "Sagar-DevOps-Demo")
 
 
 ## Author
