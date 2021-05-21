@@ -30,6 +30,7 @@ As soon as the developer pushes the updated code on the GIT master branch https:
 
 ## Demo
  ![Demo](https://thumbs.gfycat.com/OrderlyCreativeHoki-mobile.mp4)
+ ![alt text](https://thumbs.gfycat.com/OrderlyCreativeHoki-mobile.mp4 "Logo Title Text 1")
 
 
 ## Author
