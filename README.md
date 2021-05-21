@@ -29,7 +29,7 @@ As soon as the developer pushes the updated code on the GIT master branch https:
     - [x] If test fails delete the docker container.
 
 ## Demo
- ![Demo](https://gfycat.com/orderlycreativehoki)
+ ![Demo](https://thumbs.gfycat.com/OrderlyCreativeHoki-mobile.mp4)
 
 
 ## Author
