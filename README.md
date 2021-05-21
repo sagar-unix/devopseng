@@ -38,5 +38,5 @@ Jenkins Master : http://13.58.218.108:8080/login?from=%2F
 Sagar Unix - [@sagar-unix](https://github.com/sagar-unix)
 
 ## Links
-[1]: https://github.com/sagar-unix/devopseng/blob/master/docs/sagar_unix_demo.gif "Sagar-DevOps-Demo"
-[2]: https://github.com/sagar-unix/projCert.git "Sagar-GitHub-Repo"
+[1]: https://github.com/sagar-unix/projCert.git "Sagar-GitHub-Repo"
+[2]: https://github.com/sagar-unix/devopseng/blob/master/docs/sagar_unix_demo.gif "Sagar-DevOps-Demo"
