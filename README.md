@@ -11,6 +11,9 @@ This is my DevOps Engineer edureka certification project. All work logged in her
 ## About Project ##
 As soon as the developer pushes the updated code on the GIT master branch https://github.com/sagar-unix/projCert.git, a new test server should be provisioned with all the required software. The code should be containerized and deployed on the test server.The deployment should then be tested using a test automation tool, and if the test fails, container should be deleted. All this should happen automatically and should be triggered from a push to the GitHub master branch.
 
+## Demo
+ ![Demo](https://github.com/sagar-unix/devopseng/blob/master/docs/sagar_devops_demo.gif "Sagar-DevOps-Demo")
+
 ## Getting Started ##
 - [x] Created a decalrative pipeline to execute whole job as CI/CD.
   - [x] Clone repo `https://github.com/sagar-unix/projCert.git` in Jenkins Master.
@@ -27,9 +30,6 @@ As soon as the developer pushes the updated code on the GIT master branch https:
   - [x] Created a Runnable jar for Selenium testing.
     - [x] run the jar to test.
     - [x] If test fails delete the docker container.
-
-## Demo
- ![Demo](https://github.com/sagar-unix/devopseng/blob/master/docs/sagar_devops_demo.gif "Sagar-DevOps-Demo")
 
 
 ## Author
