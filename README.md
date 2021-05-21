@@ -1,4 +1,6 @@
 # **DevOps Engineer Certification Project** #
+This is my DevOps Engineer edureka certification project. All work logged in here are my sole work and are custom made tailored for my project requirement.
+
 ## Table of Contents:
   - [About Project](#about-project)
   - [Getting Started](#getting-started)
@@ -27,7 +29,7 @@ As soon as the developer pushes the updated code on the GIT master branch https:
     - [x] If test fails delete the docker container.
 
 ## Demo
- ![Demo](https://photos.app.goo.gl/xXPKy6K2uW7eNuqL8)
+ ![Demo](https://gfycat.com/orderlycreativehoki)
 
 
 ## Author
